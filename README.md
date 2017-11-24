@@ -6,7 +6,7 @@ Programm converts JSON data in human-readable type and displays it in the consol
 
 This programm takes as an argument refernce to a text file, wich contains data in JSON format, and prints it into console in human-readable format.
 
-Example of input example:
+###Input example:
 
 ```bash
 
@@ -14,16 +14,21 @@ Example of input example:
 
 ```
 
-Example of script launch on Linux, Python 3.5:
+###Example of script launch on Linux, Python 3.5:
 
 ```bash
 
 $ python pprint_json.py <path to file>
-# output example
-#{
-#    "foo": "lorem",
-#    "bar": "ipsum"
-#}
+
+```
+
+###Output example:
+
+```bash
+{
+    "foo": "lorem",
+    "bar": "ipsum"
+}
 
 ```
 
